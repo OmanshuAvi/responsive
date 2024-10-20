@@ -386,6 +386,11 @@ h2
     {
         overflow-x: hidden;
     }
+    .user
+    {
+        position: fixed;
+        top: 0pz;
+    }
     header
     {
         position: fixed;
@@ -518,7 +523,11 @@ h2
     {
         overflow-x: hidden;
     }
-  
+    .user
+    {
+        position: fixed;
+        top: 0pz;
+    }
 
 
     header
