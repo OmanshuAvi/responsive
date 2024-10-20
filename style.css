@@ -8,6 +8,7 @@
 body
 {
     font-family: "Barlow", sans-serif;
+    flex: wrap;
 }
 
 /* header */
@@ -381,6 +382,15 @@ h2
 
 @media screen and (max-width: 768px) {
 
+    html,body
+    {
+        overflow-x: hidden;
+    }
+    header
+    {
+        position: fixed;
+        top: 0px;
+    }
     .header2 button
     {
        display: none;
@@ -493,7 +503,139 @@ h2
     {
         font-size: 10px;
     }
+    .page
+    {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
     }
+    }
+
+    
+
+@media screen and (max-width: 425px){
+    html,body
+    {
+        overflow-x: hidden;
+    }
+  
+
+
+    header
+    {
+        position: fixed;
+        top: 0px;
+    }
+    .order
+    {
+        flex-direction: column-reverse;
+    }
+
+    .pickup
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .order-button
+    {
+        width: 100%;
+    }
+    h1
+    {
+        font-size: 2.2rem;
+    }
+
+    .order-pickup
+    {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .order-delivery
+    {
+        width: 100%;
+    }
+
+    .advertisements
+    {
+        width: 100%;
+        align-items: start;
+    }
+    .burger
+    {
+        width: 380px;
+        margin-left: 20px;
+    }
+    .ad1
+    {
+        width: 380px;
+    }
+    .ad-heading
+    {
+        width: 100%;
+    }
+    .ad-button
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .ad-button1
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .sub-footer
+    {
+        width: 100%;
+        flex-direction: column;
+        height: 750px;
+    }
+    .alt-img
+    {
+        width: 300px;
+        height: 320px;
+        margin-left: 60px;
+    }
+    .sub-text
+    {
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 100%;
+        height: 320px;
+    }
+    .sub-text2h2
+    {
+        margin-top: 0px;
+    }
+    .sub-text1h1
+    {
+        margin-bottom: 0px;
+    }
+    .footer
+    {
+        flex-direction: column;
+    }
+    .footer p
+        {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .footer a
+    {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .page
+    {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+}
 
 
 
