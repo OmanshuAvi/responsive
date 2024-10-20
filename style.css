@@ -388,7 +388,7 @@ h2
     }
     header
     {
-        position: sticky;
+        position: fixed;
         top: 0px;
     }
     .header2 button
@@ -523,7 +523,7 @@ h2
 
     header
     {
-        position: sticky;
+        position: fixed;
         top: 0px;
     }
     .order
